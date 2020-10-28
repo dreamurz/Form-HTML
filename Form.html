@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form action="Script URL" method="GET|POST">
+            <fieldset>
+                <legend>Biodata</legend>
+                    <label for="nama_depan">Nama Depan</label>
+                    <input id="nama_depan" type="text"
+                     autofocus="true"
+                     required
+                     name="nama_depan" placeholder="'Jhon'">
+                    <label for="nama_belakang">Nama Belakang</label>
+                    <input  id="nama_belakang" type="text"
+                     autofocus
+                     required
+                     name="nama_belakang" placeholder="'Smith'">
+                    <br>
+                    <label>Jenis Kelamin</label>
+                    <input type="radio" name="" id=""/>Laki laki
+                    <input type="radio" name="" id=""/>Perempuan
+                    <br>
+                    <label>Tanggal Lahir</label>>
+                    <input type="date" name="" id=""/>
+                    <br>
+                    <label for="">Alamat</label>
+                    <textarea name="Alamat" rows="4" cols="30"></textarea>
+                    <label for="">Kota</label>
+                    <select name="" id="">
+                        <option value="">--Pilih--</option>
+                        <option value="">Jakarta</option>
+                        <option value="">Depok</option>
+                        <option value="">Bandung</option>
+                        <option value="">Surabaya</option>
+                        <option value="">Semarang</option>
+                    </select>
+                    <br>
+                    <label for="">Kewarganegaraan</label>
+                    <select name="" id="">
+                        <option value="">--Pilih--</option>
+                        <option value="">Indonesia</option>
+                        <option value="">Amerika</option>
+                        <option value="">Russia</option>
+                        <option value="">Brazil</option>
+                    </select>
+                    <br>
+                    <label for="">Warna Favorit</label>
+                    <input type="color">    
+                    <br>
+                    <label for="email">Email</label>
+                    <input  id="email" type="email"
+                     autofocus
+                     required
+                     name="email" placeholder="user@example.com">
+                    <br>
+                    <label for="id">Id</label>
+                    <input id="id" type="text"
+                     autofocus
+                     name="id" placeholder="Masukan Id">
+                    <label for="password">Kata Sandi</label>
+                    <input id="password" type="password" value=""
+                     autocomplete="off" required
+                     placeholder="8-10 characters"
+                     pattern="^(?=.{8,})(?=.*[a-z])(?=.*[\d])((?=.*[\W]).*$"
+                     title="Kata sandi harus menggunakan 8 atau lebih karakter dengan angka, 
+                    huruf, dan karakter khusus">
+                    <br>
+                    <label for="kata_sandi">Konfirmasi Kata Sandi</label>
+                    <input id="kata_sandi" type="password" value=""
+                     autocomplete="off" required 
+                     placeholder="ketik ulang password">
+                    <br>
+            </fieldset>
+            <input type="submit">
+        </form>
+    </body>
+</html>
